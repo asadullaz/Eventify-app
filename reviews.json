@@ -1,0 +1,614 @@
+[
+  {
+    "name": "Sarah Johnson",
+    "rating": 5,
+    "date": "Nov 20, 2025",
+    "text": "Absolutely love this app! The interface is clean and intuitive. I've been using it for a month and haven't missed a single event. The reminder system is perfect."
+  },
+  {
+    "name": "Michael Chen",
+    "rating": 5,
+    "date": "Nov 19, 2025",
+    "text": "Best event management app I've tried. The dark mode is gorgeous and the animations are smooth. Worth every download!"
+  },
+  {
+    "name": "Emily Rodriguez",
+    "rating": 5,
+    "date": "Nov 18, 2025",
+    "text": "This app has transformed how I organize my life. The ability to set multiple reminders is a game-changer. Highly recommended!"
+  },
+  {
+    "name": "David Thompson",
+    "rating": 4,
+    "date": "Nov 17, 2025",
+    "text": "Great app overall. Very user-friendly and does exactly what it promises. Would love to see widget support in future updates."
+  },
+  {
+    "name": "Jessica Lee",
+    "rating": 5,
+    "date": "Nov 16, 2025",
+    "text": "Finally found an event app that doesn't overcomplicate things. Simple, beautiful, and effective. Thank you developers!"
+  },
+  {
+    "name": "Robert Martinez",
+    "rating": 5,
+    "date": "Nov 15, 2025",
+    "text": "The design is stunning! Works flawlessly on my device. I've recommended it to all my friends and family."
+  },
+  {
+    "name": "Amanda White",
+    "rating": 5,
+    "date": "Nov 14, 2025",
+    "text": "I've been searching for an app like this for years. The privacy-first approach is much appreciated. No cloud sync means my data stays mine!"
+  },
+  {
+    "name": "James Wilson",
+    "rating": 4,
+    "date": "Nov 13, 2025",
+    "text": "Very solid app. Love the simplicity and the reminders are reliable. Missing a few advanced features but perfect for most users."
+  },
+  {
+    "name": "Linda Garcia",
+    "rating": 5,
+    "date": "Nov 12, 2025",
+    "text": "Exceeded my expectations! The UI is modern and everything loads instantly. Best part is no ads or subscription nonsense."
+  },
+  {
+    "name": "Christopher Brown",
+    "rating": 5,
+    "date": "Nov 11, 2025",
+    "text": "This app is a lifesaver for someone as forgetful as me. Never missed an appointment since I started using it!"
+  },
+  {
+    "name": "Michelle Davis",
+    "rating": 5,
+    "date": "Nov 10, 2025",
+    "text": "Clean design, smooth performance, and exactly the features I need. Nothing more, nothing less. Perfect!"
+  },
+  {
+    "name": "Kevin Anderson",
+    "rating": 4,
+    "date": "Nov 9, 2025",
+    "text": "Really good event tracker. The dark mode is particularly well done. Would be 5 stars with calendar integration."
+  },
+  {
+    "name": "Patricia Moore",
+    "rating": 5,
+    "date": "Nov 8, 2025",
+    "text": "I've tried dozens of event apps and this is by far the best. The developers clearly care about user experience."
+  },
+  {
+    "name": "Daniel Taylor",
+    "rating": 5,
+    "date": "Nov 7, 2025",
+    "text": "Fantastic app! Lightweight, fast, and beautiful. Runs smoothly even on my older phone."
+  },
+  {
+    "name": "Jennifer Thomas",
+    "rating": 5,
+    "date": "Nov 6, 2025",
+    "text": "Love everything about this app. The notification system is reliable and the interface is a joy to use."
+  },
+  {
+    "name": "Matthew Jackson",
+    "rating": 5,
+    "date": "Nov 5, 2025",
+    "text": "Finally an app that respects my privacy and does exactly what I need. No bloat, no unnecessary permissions. Thank you!"
+  },
+  {
+    "name": "Ashley Harris",
+    "rating": 4,
+    "date": "Nov 4, 2025",
+    "text": "Great app for managing events. Simple yet powerful. Only wish it had more customization options for themes."
+  },
+  {
+    "name": "Andrew Martin",
+    "rating": 5,
+    "date": "Nov 3, 2025",
+    "text": "This app is perfection! Been using it daily and it never lets me down. The reminders are spot on."
+  },
+  {
+    "name": "Stephanie Clark",
+    "rating": 5,
+    "date": "Nov 2, 2025",
+    "text": "Best productivity app I've downloaded this year. Helps me stay organized without overwhelming me."
+  },
+  {
+    "name": "Joshua Lewis",
+    "rating": 5,
+    "date": "Nov 1, 2025",
+    "text": "Absolutely brilliant! The attention to detail in the design is impressive. Kudos to the development team!"
+  },
+  {
+    "name": "Nicole Walker",
+    "rating": 5,
+    "date": "Oct 31, 2025",
+    "text": "I'm obsessed with how clean and functional this app is. It's become an essential part of my daily routine."
+  },
+  {
+    "name": "Ryan Hall",
+    "rating": 4,
+    "date": "Oct 30, 2025",
+    "text": "Very good event management tool. Does what it says perfectly. Would love to see export/backup features added."
+  },
+  {
+    "name": "Rachel Allen",
+    "rating": 5,
+    "date": "Oct 29, 2025",
+    "text": "This app has made my life so much easier! The interface is intuitive and the reminders never fail. Love it!"
+  },
+  {
+    "name": "Brandon Young",
+    "rating": 5,
+    "date": "Oct 28, 2025",
+    "text": "Top-notch app! Smooth animations, great design, and reliable functionality. Exactly what I was looking for."
+  },
+  {
+    "name": "Kimberly King",
+    "rating": 5,
+    "date": "Oct 27, 2025",
+    "text": "I can't imagine managing my schedule without this app now. It's become indispensable to me."
+  },
+  {
+    "name": "Justin Wright",
+    "rating": 5,
+    "date": "Oct 26, 2025",
+    "text": "Phenomenal app! The developers really understand what users need. Simple, elegant, and effective."
+  },
+  {
+    "name": "Samantha Lopez",
+    "rating": 4,
+    "date": "Oct 25, 2025",
+    "text": "Really enjoying this app. The design is beautiful and it works great. A few more features would make it perfect."
+  },
+  {
+    "name": "Eric Hill",
+    "rating": 5,
+    "date": "Oct 24, 2025",
+    "text": "Best event app hands down! No bugs, no crashes, just pure functionality. Highly recommend!"
+  },
+  {
+    "name": "Brittany Scott",
+    "rating": 5,
+    "date": "Oct 23, 2025",
+    "text": "This app is amazing! Helps me keep track of everything without being complicated. Love the minimalist approach."
+  },
+  {
+    "name": "Tyler Green",
+    "rating": 5,
+    "date": "Oct 22, 2025",
+    "text": "Fantastic work by the developers! The app is polished, fast, and exactly what I needed for event management."
+  },
+  {
+    "name": "Melissa Adams",
+    "rating": 5,
+    "date": "Oct 21, 2025",
+    "text": "I'm really impressed with this app. It's rare to find something so well-designed and functional. Keep up the great work!"
+  },
+  {
+    "name": "Nathan Baker",
+    "rating": 4,
+    "date": "Oct 20, 2025",
+    "text": "Solid app with a beautiful interface. Works perfectly for my needs. Looking forward to future updates!"
+  },
+  {
+    "name": "Laura Nelson",
+    "rating": 5,
+    "date": "Oct 19, 2025",
+    "text": "This app has exceeded all my expectations. The attention to detail is remarkable. Absolutely love it!"
+  },
+  {
+    "name": "Jordan Carter",
+    "rating": 5,
+    "date": "Oct 18, 2025",
+    "text": "Perfect event management solution! Clean, simple, and reliable. No complaints whatsoever."
+  },
+  {
+    "name": "Rebecca Mitchell",
+    "rating": 5,
+    "date": "Oct 17, 2025",
+    "text": "I've been using this app for weeks and it's been flawless. The best part is how intuitive everything is."
+  },
+  {
+    "name": "Aaron Perez",
+    "rating": 5,
+    "date": "Oct 16, 2025",
+    "text": "Outstanding app! The developers clearly put a lot of thought into the user experience. Bravo!"
+  },
+  {
+    "name": "Crystal Roberts",
+    "rating": 4,
+    "date": "Oct 15, 2025",
+    "text": "Great app for organizing events. Love the clean design and smooth performance. Would love recurring event support."
+  },
+  {
+    "name": "Steven Turner",
+    "rating": 5,
+    "date": "Oct 14, 2025",
+    "text": "This is exactly what I've been looking for! Simple, beautiful, and incredibly useful. Thank you!"
+  },
+  {
+    "name": "Megan Phillips",
+    "rating": 5,
+    "date": "Oct 13, 2025",
+    "text": "Absolutely love this app! It's become my go-to for all event management. The reminders are perfect."
+  },
+  {
+    "name": "Brian Campbell",
+    "rating": 5,
+    "date": "Oct 12, 2025",
+    "text": "Top quality app! Everything works smoothly and the design is modern and appealing. Highly recommended!"
+  },
+  {
+    "name": "Heather Parker",
+    "rating": 5,
+    "date": "Oct 11, 2025",
+    "text": "I'm so glad I found this app! It's made organizing my life so much easier. The interface is gorgeous too!"
+  },
+  {
+    "name": "Gregory Evans",
+    "rating": 4,
+    "date": "Oct 10, 2025",
+    "text": "Very good event tracker. Clean interface and reliable notifications. Would be nice to have color coding options."
+  },
+  {
+    "name": "Kelly Edwards",
+    "rating": 5,
+    "date": "Oct 9, 2025",
+    "text": "This app is a game-changer! Never miss important dates anymore. The design is beautiful and functional."
+  },
+  {
+    "name": "Patrick Collins",
+    "rating": 5,
+    "date": "Oct 8, 2025",
+    "text": "Excellent app! Does exactly what it promises and does it well. No unnecessary features, just pure functionality."
+  },
+  {
+    "name": "Amber Stewart",
+    "rating": 5,
+    "date": "Oct 7, 2025",
+    "text": "I'm impressed by how well-thought-out this app is. Everything is where it should be. Perfect user experience!"
+  },
+  {
+    "name": "Jonathan Morris",
+    "rating": 5,
+    "date": "Oct 6, 2025",
+    "text": "Best event management app I've used! The interface is clean, the features are useful, and it never crashes."
+  },
+  {
+    "name": "Danielle Rogers",
+    "rating": 5,
+    "date": "Oct 5, 2025",
+    "text": "Love, love, love this app! It's simple yet powerful. Exactly what I needed for keeping track of events."
+  },
+  {
+    "name": "Scott Reed",
+    "rating": 4,
+    "date": "Oct 4, 2025",
+    "text": "Really solid app. Great design and functionality. Would love to see more customization options in future updates."
+  },
+  {
+    "name": "Christine Cook",
+    "rating": 5,
+    "date": "Oct 3, 2025",
+    "text": "This app is amazing! The developers did an outstanding job. It's beautiful, fast, and incredibly useful."
+  },
+  {
+    "name": "Adam Morgan",
+    "rating": 5,
+    "date": "Oct 2, 2025",
+    "text": "Perfect event app! Clean interface, reliable reminders, and great performance. Couldn't ask for more!"
+  },
+  {
+    "name": "Tiffany Bell",
+    "rating": 5,
+    "date": "Oct 1, 2025",
+    "text": "I've recommended this app to everyone I know. It's that good! Simple, elegant, and effective."
+  },
+  {
+    "name": "Victor Murphy",
+    "rating": 5,
+    "date": "Sep 30, 2025",
+    "text": "Fantastic app! The UI is modern and everything works flawlessly. Best productivity app I've downloaded!"
+  },
+  {
+    "name": "Diana Bailey",
+    "rating": 4,
+    "date": "Sep 29, 2025",
+    "text": "Great app overall. Love the minimalist design and smooth animations. Would appreciate widget support."
+  },
+  {
+    "name": "Carlos Rivera",
+    "rating": 5,
+    "date": "Sep 28, 2025",
+    "text": "This app is perfect for my needs! Simple to use, beautiful design, and reliable notifications. Love it!"
+  },
+  {
+    "name": "Shannon Cooper",
+    "rating": 5,
+    "date": "Sep 27, 2025",
+    "text": "Absolutely brilliant app! The developers really nailed the balance between simplicity and functionality."
+  },
+  {
+    "name": "Marcus Richardson",
+    "rating": 5,
+    "date": "Sep 26, 2025",
+    "text": "I'm thoroughly impressed with this app. It's rare to find something so polished and well-executed."
+  },
+  {
+    "name": "Olivia Cox",
+    "rating": 5,
+    "date": "Sep 25, 2025",
+    "text": "This app has made my life so much more organized! The interface is beautiful and everything works perfectly."
+  },
+  {
+    "name": "Keith Howard",
+    "rating": 4,
+    "date": "Sep 24, 2025",
+    "text": "Very nice event management app. Clean design and reliable performance. Looking forward to more features!"
+  },
+  {
+    "name": "Monica Ward",
+    "rating": 5,
+    "date": "Sep 23, 2025",
+    "text": "Love this app! It's exactly what I needed - simple, effective, and beautiful. No unnecessary complications."
+  },
+  {
+    "name": "Jeremy Torres",
+    "rating": 5,
+    "date": "Sep 22, 2025",
+    "text": "Outstanding work! This app is polished, functional, and a pleasure to use. Highly recommend to everyone!"
+  },
+  {
+    "name": "Vanessa Peterson",
+    "rating": 5,
+    "date": "Sep 21, 2025",
+    "text": "I'm so happy I found this app! It's made managing my schedule effortless. The design is stunning too!"
+  },
+  {
+    "name": "Thomas Gray",
+    "rating": 5,
+    "date": "Sep 20, 2025",
+    "text": "Perfect app for event management! Clean interface, smooth performance, and reliable notifications. 10/10!"
+  },
+  {
+    "name": "Angela Ramirez",
+    "rating": 4,
+    "date": "Sep 19, 2025",
+    "text": "Really good app with a beautiful interface. Does everything I need it to do. Would love more theme options."
+  },
+  {
+    "name": "Alexander James",
+    "rating": 5,
+    "date": "Sep 18, 2025",
+    "text": "This app is phenomenal! The attention to detail is incredible. Best event app I've ever used!"
+  },
+  {
+    "name": "Maria Watson",
+    "rating": 5,
+    "date": "Sep 17, 2025",
+    "text": "Absolutely love this app! It's intuitive, beautiful, and works perfectly. Couldn't be happier!"
+  },
+  {
+    "name": "Gary Brooks",
+    "rating": 5,
+    "date": "Sep 16, 2025",
+    "text": "Fantastic event management solution! The app is smooth, reliable, and looks great. Highly recommended!"
+  },
+  {
+    "name": "Julia Kelly",
+    "rating": 5,
+    "date": "Sep 15, 2025",
+    "text": "This app is a masterpiece! Everything from the design to the functionality is top-notch. Love it!"
+  },
+  {
+    "name": "Philip Sanders",
+    "rating": 4,
+    "date": "Sep 14, 2025",
+    "text": "Great app for managing events. Clean design and good features. Would be perfect with calendar sync."
+  },
+  {
+    "name": "Katherine Price",
+    "rating": 5,
+    "date": "Sep 13, 2025",
+    "text": "I'm impressed by how well this app works! It's become an essential tool for me. Thank you developers!"
+  },
+  {
+    "name": "Dennis Bennett",
+    "rating": 5,
+    "date": "Sep 12, 2025",
+    "text": "Perfect app! Simple, elegant, and does exactly what I need. The reminders are always on time."
+  },
+  {
+    "name": "Sara Wood",
+    "rating": 5,
+    "date": "Sep 11, 2025",
+    "text": "This app is amazing! The interface is beautiful and everything works smoothly. Best event app ever!"
+  },
+  {
+    "name": "Gerald Barnes",
+    "rating": 5,
+    "date": "Sep 10, 2025",
+    "text": "Outstanding application! The developers created something truly special here. Highly recommend!"
+  },
+  {
+    "name": "Jacqueline Ross",
+    "rating": 4,
+    "date": "Sep 9, 2025",
+    "text": "Really solid event management app. Love the clean design and smooth animations. Great work!"
+  },
+  {
+    "name": "Randy Henderson",
+    "rating": 5,
+    "date": "Sep 8, 2025",
+    "text": "This app is perfect for my needs! Clean, simple, and reliable. The best event tracker I've found."
+  },
+  {
+    "name": "Teresa Coleman",
+    "rating": 5,
+    "date": "Sep 7, 2025",
+    "text": "Absolutely brilliant! The app is beautiful, functional, and a joy to use every day. Love it!"
+  },
+  {
+    "name": "Willie Jenkins",
+    "rating": 5,
+    "date": "Sep 6, 2025",
+    "text": "Fantastic app! Everything works perfectly and the design is modern and appealing. Highly recommended!"
+  },
+  {
+    "name": "Carolyn Perry",
+    "rating": 5,
+    "date": "Sep 5, 2025",
+    "text": "I'm so glad I discovered this app! It's made organizing my life so much easier. The interface is gorgeous!"
+  },
+  {
+    "name": "Lawrence Powell",
+    "rating": 4,
+    "date": "Sep 4, 2025",
+    "text": "Very good event app. Clean interface and reliable notifications. Would love to see more customization."
+  },
+  {
+    "name": "Frances Long",
+    "rating": 5,
+    "date": "Sep 3, 2025",
+    "text": "This app is wonderful! Simple, effective, and beautiful. Exactly what I was looking for!"
+  },
+  {
+    "name": "Carl Patterson",
+    "rating": 5,
+    "date": "Sep 2, 2025",
+    "text": "Perfect event management solution! The app is polished, fast, and incredibly user-friendly. Love it!"
+  },
+  {
+    "name": "Diane Hughes",
+    "rating": 5,
+    "date": "Sep 1, 2025",
+    "text": "Absolutely love this app! The developers did an amazing job. It's become indispensable to me."
+  },
+  {
+    "name": "Albert Flores",
+    "rating": 5,
+    "date": "Aug 31, 2025",
+    "text": "Outstanding app! Clean design, smooth performance, and reliable features. Couldn't ask for more!"
+  },
+  {
+    "name": "Gloria Washington",
+    "rating": 4,
+    "date": "Aug 30, 2025",
+    "text": "Great event tracker with a beautiful interface. Works perfectly for my needs. Looking forward to updates!"
+  },
+  {
+    "name": "Arthur Butler",
+    "rating": 5,
+    "date": "Aug 29, 2025",
+    "text": "This app is incredible! Everything works flawlessly and the design is stunning. Highly recommend!"
+  },
+  {
+    "name": "Cheryl Simmons",
+    "rating": 5,
+    "date": "Aug 28, 2025",
+    "text": "I'm thoroughly impressed with this app! It's elegant, functional, and exactly what I needed."
+  },
+  {
+    "name": "Russell Foster",
+    "rating": 5,
+    "date": "Aug 27, 2025",
+    "text": "Perfect app for managing events! Clean interface, reliable notifications, and great performance."
+  },
+  {
+    "name": "Deborah Gonzales",
+    "rating": 5,
+    "date": "Aug 26, 2025",
+    "text": "Love this app! It's simple, beautiful, and works perfectly. The best event management app available!"
+  },
+  {
+    "name": "Roy Bryant",
+    "rating": 4,
+    "date": "Aug 25, 2025",
+    "text": "Really solid app. Great design and functionality. Would be nice to have more color themes."
+  },
+  {
+    "name": "Helen Alexander",
+    "rating": 5,
+    "date": "Aug 24, 2025",
+    "text": "This app is amazing! The developers created something truly special. It's become essential to my routine."
+  },
+  {
+    "name": "Eugene Russell",
+    "rating": 5,
+    "date": "Aug 23, 2025",
+    "text": "Fantastic work! The app is polished, functional, and a pleasure to use. Highly recommended!"
+  },
+  {
+    "name": "Kathryn Griffin",
+    "rating": 5,
+    "date": "Aug 22, 2025",
+    "text": "Absolutely brilliant app! Clean design, smooth animations, and reliable features. Love it!"
+  },
+  {
+    "name": "Ralph Diaz",
+    "rating": 5,
+    "date": "Aug 21, 2025",
+    "text": "Perfect event management tool! Everything works smoothly and the interface is beautiful. 5 stars!"
+  },
+  {
+    "name": "Judith Hayes",
+    "rating": 5,
+    "date": "Aug 20, 2025",
+    "text": "This app is wonderful! Simple, elegant, and effective. Exactly what I was looking for!"
+  },
+  {
+    "name": "Peter Myers",
+    "rating": 4,
+    "date": "Aug 19, 2025",
+    "text": "Great app overall. Love the minimalist approach and smooth performance. Would appreciate more features."
+  },
+  {
+    "name": "Virginia Ford",
+    "rating": 5,
+    "date": "Aug 18, 2025",
+    "text": "I'm so impressed with this app! The design is stunning and everything works perfectly. Love it!"
+  },
+  {
+    "name": "Henry Hamilton",
+    "rating": 5,
+    "date": "Aug 17, 2025",
+    "text": "Outstanding application! The developers really understand what users need. Highly recommend!"
+  },
+  {
+    "name": "Doris Graham",
+    "rating": 5,
+    "date": "Aug 16, 2025",
+    "text": "This app is perfect! Clean interface, reliable notifications, and beautiful design. Couldn't be happier!"
+  },
+  {
+    "name": "Jose Sullivan",
+    "rating": 5,
+    "date": "Aug 15, 2025",
+    "text": "Fantastic event app! Everything from the UI to the functionality is top-notch. Love it!"
+  },
+  {
+    "name": "Ruth Wallace",
+    "rating": 4,
+    "date": "Aug 14, 2025",
+    "text": "Very nice app with great design. Works perfectly for managing events. Looking forward to new features!"
+  },
+  {
+    "name": "Frank Woods",
+    "rating": 5,
+    "date": "Aug 13, 2025",
+    "text": "This app is incredible! The attention to detail is remarkable. Best event management app I've used!"
+  },
+  {
+    "name": "Marilyn Cole",
+    "rating": 5,
+    "date": "Aug 12, 2025",
+    "text": "Absolutely love this app! It's intuitive, beautiful, and works flawlessly. Highly recommended!"
+  },
+  {
+    "name": "Raymond West",
+    "rating": 5,
+    "date": "Aug 11, 2025",
+    "text": "Perfect app! Clean design, smooth performance, and reliable features. Everything I needed and more!"
+  }
+]
