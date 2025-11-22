@@ -105,7 +105,7 @@
         .action-bar { margin: 20px 0; width: 100%; }
         .install-btn {
             background: var(--primary);
-            color: #ffffff !important; /* Always white text for Install button */
+            color: #ffffff !important;
             width: 100%;
             padding: 10px 24px;
             border-radius: 8px;
@@ -181,7 +181,9 @@
         .bar-fill { height: 100%; background: var(--primary); border-radius: 4px; }
 
         /* REVIEW CARDS */
-        .review-card { margin-bottom: 24px; }
+        .review-card { margin-bottom: 24px; animation: fadeIn 0.3s ease-in; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+
         .review-top { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
         .avatar {
             width: 32px; height: 32px; border-radius: 50%;
@@ -193,6 +195,24 @@
         .stars { color: var(--primary); font-size: 12px; }
         .review-date { font-size: 12px; color: var(--text-sub); }
         .review-text { font-size: 14px; line-height: 1.4; color: var(--text-sub); }
+
+        /* LOAD MORE BUTTON */
+        .load-more-btn {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            margin-top: 10px;
+            margin-bottom: 40px;
+            background: transparent;
+            color: var(--primary);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            text-align: center;
+        }
+        .load-more-btn:hover { background: rgba(0,0,0,0.03); }
 
     </style>
 </head>
@@ -215,8 +235,8 @@
             <img src="icon.jpg" onerror="this.src='https://placehold.co/150x150/4A7BA7/white?text=Event'" alt="App Icon">
         </div>
         <div class="hero-content">
-            <h1>My Events: Planner & ToDo</h1>
-            <div class="dev-name">Event Master Inc.</div>
+            <h1>Eventify: Save Instagram posts as events</h1>
+            <div class="dev-name">Eventify Inc.</div>
             <div class="ad-badge">Contains ads · In-app purchases</div>
         </div>
     </div>
@@ -294,6 +314,8 @@
         </div>
 
         <div id="reviewsList"></div>
+        
+        <button id="loadMoreBtn" class="load-more-btn" style="display: none;" onclick="showNextBatch()">See all reviews</button>
     </div>
 
 </div>
@@ -301,7 +323,6 @@
 <script>
 /* -----------------------------------------------
    1. FALLBACK DATA (Mocks)
-   Updated keys to match the real JSON 'text' key
 ----------------------------------------------- */
 const MOCK_REVIEWS = [
     { name: "Sarah Jenkins", rating: 5, date: "Nov 12, 2024", text: "Exactly what I needed. Simple, clean, and the reminders actually work correctly on Android 14." },
@@ -321,46 +342,50 @@ function loadScreenshots() {
         const img = document.createElement("img");
         img.className = "screen-img";
         img.alt = "App Screenshot";
-        
-        // Try local file first (review0.jpg)
         img.src = `review${i}.jpg`; 
-        
-        // If local file fails, switch to placeholder
         img.onerror = function() {
             this.src = `https://placehold.co/300x600/e0e0e0/555555?text=Screen+${i+1}`;
         };
-
         container.appendChild(img);
     }
 }
 
 /* -----------------------------------------------
-   3. REVIEW LOADER
-   Fixed: Now looks for r.text OR r.comment
+   3. REVIEW LOADER (Pagination Logic)
 ----------------------------------------------- */
-async function loadReviews() {
-    const container = document.getElementById("reviewsList");
-    let reviews = [];
+let allReviewsData = [];
+let visibleCount = 0;
+const BATCH_SIZE = 10;
 
+async function loadReviews() {
     try {
         const response = await fetch('reviews.json');
         if (!response.ok) throw new Error("No file");
-        reviews = await response.json();
+        allReviewsData = await response.json();
     } catch (e) {
         console.log("Could not load reviews.json, using fallback data.");
-        reviews = MOCK_REVIEWS;
+        allReviewsData = MOCK_REVIEWS;
     }
 
-    // Render
-    container.innerHTML = "";
-    reviews.forEach(r => {
+    // Load first batch
+    showNextBatch();
+}
+
+function showNextBatch() {
+    const container = document.getElementById("reviewsList");
+    const btn = document.getElementById("loadMoreBtn");
+    
+    // Calculate the slice
+    const start = visibleCount;
+    const end = Math.min(visibleCount + BATCH_SIZE, allReviewsData.length);
+    
+    const batch = allReviewsData.slice(start, end);
+
+    batch.forEach(r => {
         const stars = "★".repeat(r.rating) + "☆".repeat(5 - r.rating);
         const avatarLetter = r.name.charAt(0);
-        // random color for avatar
         const colors = ['#e91e63', '#9c27b0', '#673ab7', '#009688', '#ff5722'];
         const bg = colors[Math.floor(Math.random() * colors.length)];
-        
-        // FIX: Check for 'text' (from JSON) or 'comment' (fallback)
         const bodyText = r.text || r.comment || "";
 
         const html = `
@@ -376,8 +401,18 @@ async function loadReviews() {
                 <div class="review-text">${bodyText}</div>
             </div>
         `;
-        container.innerHTML += html;
+        container.insertAdjacentHTML('beforeend', html);
     });
+
+    // Update count
+    visibleCount = end;
+
+    // Toggle Button Visibility
+    if (visibleCount >= allReviewsData.length) {
+        btn.style.display = 'none';
+    } else {
+        btn.style.display = 'block';
+    }
 }
 
 // Init
